@@ -6,7 +6,7 @@ let a = 0, b = 1, c ,i ;
 	else if (num===2){
 		return b;
 	}
-	for( i=3+; i<=num ;i++){
+	for( i=3; i<=num ;i++){
 		c=a+b;
 		b=c;
 		a=b;

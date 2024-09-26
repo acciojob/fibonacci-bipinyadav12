@@ -1,5 +1,4 @@
 function fibonacci(num) {
-
 	if (num===1){
 		return 0;
 	}
@@ -7,7 +6,7 @@ function fibonacci(num) {
 		return 1;
 	}
 	let a=0 ,b=1;
-	for( i=3; i<=num ;i++){
+	for(let i=3; i<=num ;i++){
 	let	temp=a+b;
 		b=temp;
 		a=b;
